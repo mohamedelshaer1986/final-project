@@ -1,0 +1,10 @@
+*{padding: 0;
+margin: 0
+;}
+i{color: white;font-size: 20px;}
+.vr{width: 2px;color: white; opacity: 1; background-color: white;}
+ul{list-style-type: none;}
+a{text-decoration: none;}
+.nav-link{position: relative;display: inline-block;}
+.dropdown-menu{position: absolute;}
+.nav-link:hover +.dropdown-menu{display:block; transform: translateX(30px);}
