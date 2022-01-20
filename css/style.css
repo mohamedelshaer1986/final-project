@@ -5,6 +5,19 @@ i{color: white;font-size: 20px;}
 .vr{width: 2px;color: white; opacity: 1; background-color: white;}
 ul{list-style-type: none;}
 a{text-decoration: none;}
-.nav-link{position: relative;display: inline-block;}
-.dropdown-menu{position: absolute;}
-.nav-link:hover +.dropdown-menu{display:block; transform: translateX(30px);}
+
+.dropdown-menu{border-radius: 0px !important;}
+.nav-link:hover +.dropdown-menu{display:block;}
+.dropdown-menu:hover{display: block;}
+/* sec2 */
+.overlay{height: 100%;width: 100%; background-color:rgb(75, 78, 78) ; }
+@font-face {
+    font-family: myfont;
+    src: url(../webfonts/NotoSerif-Bold.ttf);
+}
+.noto{font-family: myfont;color: black;font-size: 40px;}
+.carousel-indicators [data-bs-target]{width: 20px;height: 20px; color: black;background-color: black;}
+.carousel-indicators [data-bs-target]:hover{background-color: cornflowerblue;color: cornflowerblue;}
+ button.text-white :hover{background-color: darkorange;color: white;}
+ .btn-1:hover{background-color: darkorange !important;color: black !important;}
+ .btn-1{display: inline-block;padding: 1%;}
